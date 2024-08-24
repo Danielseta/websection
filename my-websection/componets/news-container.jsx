@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+'use client'
 
 const NewsContainer = ({ className = "" }) => {
   return (
@@ -42,8 +42,5 @@ const NewsContainer = ({ className = "" }) => {
   );
 };
 
-NewsContainer.propTypes = {
-  className: PropTypes.string,
-};
 
 export default NewsContainer;

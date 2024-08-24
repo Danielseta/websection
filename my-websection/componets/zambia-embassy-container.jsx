@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+'use client ' 
 
 const ZambiaEmbassyContainer = ({ className = "" }) => {
   return (
@@ -68,8 +68,5 @@ const ZambiaEmbassyContainer = ({ className = "" }) => {
   );
 };
 
-ZambiaEmbassyContainer.propTypes = {
-  className: PropTypes.string,
-};
 
 export default ZambiaEmbassyContainer;

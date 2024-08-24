@@ -1,6 +1,7 @@
 import ZambiaEmbassyContainer from "../componets/zambia-embassy-container";
 import NewsContainer from "../componets/news-container";
 
+
 const Root = () => {
   return (
     <div className="w-full relative bg-white flex flex-col items-start justify-start pt-[159px] px-0 pb-[414px] box-border gap-14 leading-[normal] tracking-[normal] text-left text-45xl text-black font-inter mq1950:gap-7">
